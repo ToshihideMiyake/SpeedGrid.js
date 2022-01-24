@@ -18,3 +18,64 @@ Each of them have to be connected with `-`.
 ・`xxx` --corresponds to `justify-content`.<br>
 ・`yyy`--corresponds to `align-items`.<br>
 
+<table>
+  <tr>
+    <th colspan="2"><b>XXX</b></th>
+      <th colspan="2"><b>YYY</b></th>
+  </tr>
+   <tr align="center">
+     <td><b>strings</b></td>
+     <td><b>CSS</b></td>
+     <td><b>strings</b></td>
+     <td><b>CSS</b></td>
+  </tr>
+   <tr align="center">
+     <td>left-</td>
+      <td>justify-content:flex-start;</td>
+      <td>-top</td>
+      <td>align-items:flex-start;</td>
+  </tr>
+   <tr align="center">
+     <td>center-</td>
+      <td>justify-content:center;</td>
+      <td>-middle</td>
+      <td>align-items:center;</td>
+  </tr>
+   <tr align="center">
+     <td>right-</td>
+      <td>justify-content:flex-end;</td>
+      <td>-bottom</td>
+      <td>align-items:flex-end;</td>
+  </tr>
+   <tr align="center">
+      <td>between-</td>
+      <td>justify-content:space-between;</td>
+      <td></td>
+      <td></td>
+  </tr>
+   <tr align="center">
+     <td>around-</td>
+      <td>justify-content:space-around;</td>
+      <td></td>
+      <td></td>
+  </tr>
+   <tr align="center">
+     <td>evenly-</td>
+      <td>justify-content:space-evenly;</td>
+      <td></td>
+      <td></td>
+  </tr>
+</table>
+
+<br>
+If you write the class name in the container like  <code>&lt;div class="flex-center-middle">&lt;/div></code>, the actual output will look like this:<br><br>
+
+```html
+<div class="flex-center-middle" style="display: flex; justify-content: center; align-items: center;"></div>
+```
+ 
+ <br>
+※It is also possible to specify only one of `flex` or `flex-xxx` or `flex-yyy`.
+<hr>
+
+### Grid
