@@ -85,14 +85,52 @@ If you write the class name in the container like  <code>&lt;div class="flex-cen
 Describe the grid area with grid lines of the X and Y axes, as the class name in child elements.
 Grid-start and grid-end are specified with a slash.
 Whitespace before and after the slash is not required.
+You have to do the work of setting up the `display:grid;` and grid tracks for the container by yourself.
+Gridlines must be less than 10.
 
 <br>
-If you write the class name in the child elements like  <code>&lt;div class="grid-x-2/5 grid-y-2/3 ">&lt;/div></code>, the actual output will look like this:<br><br>
+<img src="https://github.com/ToshihideMiyake/images/blob/main/grid.screenshot.png" style="width:50%;">
+
+<br>
+If you write the class name in the child elements like  <code>&lt;div class="grid-x-2/4 grid-y-3/4">&lt;/div></code>, the actual output will look like this:<br><br>
 
 ```html
-<div class="grid-x-2/5 grid-y-2/3" style="grid-area: 2 / 2 / 3 / 5;"></div>
+<div class="grid-x-2/4 grid-y-3/4" style="grid-area: 2 / 3 / 4 / 4;"></div>
 ```
  
- <br>
+ <hr>
  
+ ### gap
+ 
+ You can specify the gap property for Flexbox and Grid. The easiest way to use this is to simply specify <code>gap-nn</code> (nn=number) in the class name. You can also specify each gap for the horizontal and vertical axes by using the prefix <code>gapx-</code>,<code>gapy-</code>. You can use px, %, or em as the unit. px is used by default, but you can specify the unit by adding <code>per</code> or <code>em</code> between <code>gap-</code> and <code>-nn.</code>
+ 
+#### Simple Usage
+
+gap-nn (nn=number)
+
+#### Options
+
+<li>gapx-nn</li>
+
+<li>gapy-nn</li>
+
+<li>gap-per-nn</li>
+
+<li>gapx-per-nn</li>
+
+<li>gapy-per-nn</li>
+
+<li>gap-em-nn</li>
+
+<li>gapx-em-nn</li>
+
+<li>gapy-em-nn</li>
+
+<hr>
+more details --> <a href="https://toshihidemiyake.github.io/SpeedGrid/" target="_blank">https://toshihidemiyake.github.io/SpeedGrid/</a>
+
+
+
+<br>
+support --><a href="https://www.buymeacoffee.com/myktoshihide" target="_blank">Buy me a coffee</a>
  
