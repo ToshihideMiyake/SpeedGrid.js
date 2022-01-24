@@ -81,3 +81,18 @@ If you write the class name in the container like  <code>&lt;div class="flex-cen
 <hr>
 
 ### Grid
+
+Describe the grid area with grid lines of the X and Y axes, as the class name in child elements.
+Grid-start and grid-end are specified with a slash.
+Whitespace before and after the slash is not required.
+
+<br>
+If you write the class name in the child elements like  <code>&lt;div class="grid-x-2/5 grid-y-2/3 ">&lt;/div></code>, the actual output will look like this:<br><br>
+
+```html
+<div class="grid-x-2/5 grid-y-2/3" style="grid-area: 2 / 2 / 3 / 5;"></div>
+```
+ 
+ <br>
+ 
+ 
