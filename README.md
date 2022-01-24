@@ -75,7 +75,9 @@ If you write the class name in the container like  <code>&lt;div class="flex-cen
 ```
  
  <br>
+ 
 ※It is also possible to specify only one of `flex` or `flex-xxx` or `flex-yyy`.
+
 <hr>
 
 ### Grid
