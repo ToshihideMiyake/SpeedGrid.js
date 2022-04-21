@@ -1,6 +1,8 @@
 # <a href="https://toshihidemiyake.github.io/SpeedGrid/" target="_blank">SpeedGrid</a>
 micro-library for  CSS Flexbox and CSS Grid
 
+more details --> https://toshihidemiyake.github.io/SpeedGrid/
+
 <img src="https://github.com/ToshihideMiyake/images/blob/main/speedgrid-eyecatch.png" style="width:80%;">
 
 ## Overview
